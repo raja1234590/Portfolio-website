@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h2>Gnana Prakash Portfolio</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-me.html">About Me</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./achievements.html">Achievements</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="about-section">
+            <img src="./images/prakash.jpeg.JPG" alt="Gnana Prakash" class="profile-img">
+            <div>
+                <h1>About Me</h1>
+                <h2>I'm Gnana Prakash, Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore debitis vel praesentium quasi facere accusantium placeat!</p>
+                <div class="info">
+                    <div>
+                        <h3>Fresher</h3>
+                        <p>Experience Level</p>
+                    </div>
+                    <div>
+                        <h3>10</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div>
+                        <h3>7.63-cgpa</h3>
+                        <p>IIIT Sricity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="what-i-do">
+            <h2>What I Do</h2>
+            <div class="features">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h4>Web Design</h4>
+                    <p>Crafting modern and responsive designs.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h4>Data Analysis</h4>
+                    <p>Analyzing data for better insights and decisions.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>Machine Learning</h4>
+                    <p>Building intelligent systems with algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gnana Prakash. All rights reserved.</p>
+    </footer>
+</body>
+</html>
